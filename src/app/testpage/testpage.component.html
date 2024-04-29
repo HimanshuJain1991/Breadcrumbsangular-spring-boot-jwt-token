@@ -1,0 +1,21 @@
+<p>testpage works!</p>
+{{message}}
+<form>
+
+    <table>
+        <tr>
+
+            <th>Login</th>
+            <td><input type="text" [(ngModel)]="login" name="login"></td>
+        </tr>
+        <tr>
+
+            <th>Passwordd:</th>
+            <td><input type="text" [(ngModel)]="password" name="password"></td>
+        </tr>
+        <tr>
+            <th></th>
+            <td><button type="button" (click)="signInNew()">Sign In</button></td>
+        </tr>
+    </table>
+</form>
